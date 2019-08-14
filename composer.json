@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/TheExtensionLab_MultiselectFilters",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "homepage": "",
+    "description": "An extension that replaces the default single select dropdowns with multi-select dropdowns in Magento admin grids.",
+    "authors": [
+    {
+        "name": "James Anelay",
+        "email": "james@theextensionlab.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>TheExtensionLab_MultiselectFilters</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="https://opensource.org/licenses/OSL-3.0">OSL 3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>An extension that replaces the default single select dropdowns with multi-select dropdowns in Magento admin grids.</summary>
+    <description>Sometimes you need to filter by more that one dropdown value, and without customisation that isn't possible in Magento.&#xD;
+&#xD;
+This extension replaces the default single select dropdowns with multi-select dropdowns in Magento admin grids.. With this extension you can now search admin grids by Simple and Configurable Products, Refunded and Cancelled order status. Take a look a the quick preview below.</description>
+    <notes>Inital release</notes>
+    <authors><author><name>James Anelay</name><user>TheExtensionLab</user><email>james@theextensionlab.com</email></author></authors>
+    <date>2015-10-01</date>
+    <time>13:11:18</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="TheExtensionLab_MultiselectFilters.xml" hash="a93669fac8e173890130fc733aaaf2a5"/></dir></target><target name="magecommunity"><dir name="TheExtensionLab"><dir name="MultiselectFilters"><dir name="Block"><dir name="Adminhtml"><dir name="Widget"><dir name="Grid"><dir name="Column"><dir name="Filter"><dir name="Multiselect"><file name="Country.php" hash="2a2731631b23401b1f5112b741bdb3be"/></dir><file name="Multiselect.php" hash="8c76dae09d3fb5bef85e051ec240ab5d"/></dir></dir></dir></dir></dir></dir><dir name="Model"><file name="Observer.php" hash="40024327c50dd6f5d0a3c64c9517f982"/></dir><dir name="Test"><dir name="Config"><file name="Main.php" hash="c3dd8b5944d2feaa6b25f34da2dcebb1"/></dir></dir><dir name="etc"><file name="config.xml" hash="0dca9fe44a7ffa71443ed735d5eab655"/></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="theextensionlab"><file name="multiselectfilters.xml" hash="d10baa11f7c0d4e1d9dee412447a6a51"/></dir></dir><dir name="template"><dir name="theextensionlab"><dir name="multiselectfilters"><dir name="chosen"><file name="init-js.phtml" hash="ab40273889b2af913ac35cdcbe0225ac"/></dir></dir></dir></dir></dir></dir></dir></target><target name="mageweb"><dir name="js"><dir name="theextensionlab"><dir name="multiselectfilters"><dir name="chosen"><file name="chosen.proto.js" hash="249ee64baf95772fe3f4ad34e9ccb6b9"/><file name="chosen.proto.min.js" hash="93d1133ded89a8d03997a20dc220c2ae"/><file name="init.js" hash="d41d8cd98f00b204e9800998ecf8427e"/><file name="simulate.js" hash="2b982ed43725af6b8d2b6db97cee71fe"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="theextensionlab"><dir name="multiselectfilters"><dir><dir name="chosen"><dir name="css"><file name="chosen.css" hash="2b5387f8e94abf9ff275be9946b2ef9b"/></dir><dir name="images"><file name="chosen-sprite.png" hash="8b55a822e72b8fd5e2ee069236f2d797"/><file name="chosen-sprite@2x.png" hash="614fad616d014daf5367e068505cad35"/></dir></dir></dir></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
